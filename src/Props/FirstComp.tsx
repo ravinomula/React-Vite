@@ -4,6 +4,9 @@ type FirstCompProps ={
     name:string;
     area:string;
 }
+
+
+
 const FirstComp = (props:FirstCompProps) => {
     console.log(props);
     return(
